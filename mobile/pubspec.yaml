@@ -1,0 +1,205 @@
+name: mobile
+description: A new Flutter application.
+version: 1.7.29+33
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  #
+  flutter:
+    sdk: flutter
+  # geo location
+  geolocator: ^5.1.5
+
+  shimmer: ^1.0.0
+
+  # google map
+  google_maps_flutter: ^0.5.26+4
+  # Useful for BLoC provider pattern
+  provider: ^3.0.0
+  # flutter_bloc: ^3.2.0
+
+  location: ^3.0.2
+
+  # Private Core lib
+  core:
+    path: ../core
+ 
+  html_widget:
+    path: ../html_widget
+  cupertino_icons: ^0.1.2
+  # network image
+  cached_network_image: ^2.0.0-rc
+  flutter_cache_manager: ^1.1.1
+  path: ^1.6.4
+  
+  #web view
+  # webview_flutter: ^0.3.22+1
+  flutter_webview_plugin: ^0.3.11
+
+  # swiper util
+  flutter_swiper: ^1.1.4
+  # spinner
+  flutter_spinkit: ^4.0.0
+  # service locator
+  get_it: ^1.0.3+2
+  # shared preference
+  shared_preferences: ^0.5.3+4
+  #firebase
+  firebase_core: ^0.4.0+9
+  #firebase_message
+  firebase_messaging: ^6.0.12
+  # analytics
+  firebase_analytics: ^5.0.1
+  # crashlytics
+  firebase_crashlytics: ^0.1.4+1
+  # calendar
+  flutter_calendar_carousel: ^1.4.2
+  # dotted_border 1.0.3
+  dotted_border: ^1.0.3
+  # for nested scroll view rxdart
+  extended_nested_scroll_view: ^0.4.0
+
+  pdf_viewer_plugin: ^1.0.0+2
+
+  flutter_pdfview:
+  path_provider:
+  http:
+  #url_launcher
+  url_launcher: ^5.2.7
+  #barcode generator
+  barcode_flutter: ^1.1.0
+  qr_flutter: ^3.1.0
+  #kakao login plugin
+  flutter_kakao_login: ^0.8.1
+  google_sign_in: ^4.1.1
+
+  firebase_auth: ^0.15.3
+  device_info: ^0.4.1+4
+  apple_sign_in: ^0.1.0
+  country_code_picker: ^1.2.4
+  jaguar_jwt: ^2.1.6
+  package_info: ^0.4.0+3
+  flutter_statusbarcolor: ^0.2.3
+  firebase_dynamic_links: ^0.5.0+11
+  flutter_ringtone_player: ^2.0.0
+
+  onesignal_flutter: ^2.0.0
+  one_context: ^0.4.0
+
+dev_dependencies:
+  effective_dart: ^1.2.4
+  flutter_test:
+    sdk: flutter
+  intl_translation:
+
+firebase_dynamic_links:
+  git:
+    url: https://github.com/diegoveloper/plugins
+    ref: ff17b724df0bcdf35bb5689b347d7fbef7107615
+    path: packages/firebase_dynamic_links
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/splash.png
+    - assets/images/placeholder.jpg
+    - assets/images/alert_on.png
+    - assets/images/alert_off.png
+    - assets/images/down.png
+    - assets/images/4.png
+    - assets/images/5.png
+    - assets/images/7.png
+    - assets/images/9.png
+    - assets/images/12.png
+    - assets/images/17.png
+    - assets/images/18.png
+    - assets/images/19.png
+    - assets/images/20.png
+    - assets/images/21.png
+    - assets/images/22.png
+    - assets/images/23.png
+    - assets/images/content_down.png
+    - assets/images/cs_kakao.png
+    - assets/images/main_hanwha_img.png
+    - assets/images/hanwha_img.png
+    - assets/images/group_3.png
+    - assets/images/group_8.png
+    - assets/images/location.png
+    - assets/images/star_on.png
+    - assets/images/star_off.png
+    - assets/images/path.png
+    - assets/images/search_result_icon.png
+    - assets/images/search_clear_icon.png
+    - assets/images/search_filter_icon.png
+    - assets/images/modal_close_icon.png
+    - assets/images/bottom_nav/bottom_nav_main.png
+    - assets/images/bottom_nav/bottom_nav_discovery.png
+    - assets/images/bottom_nav/bottom_nav_mypage.png
+    - assets/images/bottom_nav/bottom_nav_curation.png
+    - assets/images/bottom_nav/bottom_nav_main_click.png
+    - assets/images/bottom_nav/bottom_nav_discovery_click.png
+    - assets/images/bottom_nav/bottom_nav_mypage_click.png
+    - assets/images/bottom_nav/bottom_nav_curation_click.png
+    - assets/images/mypage/bag.png
+    - assets/images/mypage/option.png
+    - assets/images/mypage/analyze.png
+    - assets/images/mypage/close.png
+    - assets/images/mypage/back_disabled.png
+    - assets/images/mypage/forward_disabled.png
+    - assets/images/mypage/style_image.png
+    - assets/images/cs_kakao.png
+    - assets/images/cs_email.png
+    - assets/images/arrow_right.png
+    - assets/images/arrow_down.png
+    - assets/images/arrow_up.png
+
+    - assets/images/somssidang.png
+    - assets/images/search_icon.png
+    - assets/images/reservation_not_found.png
+    - assets/images/style_pick_logo.png
+    - assets/images/intro/intro.png
+    - assets/images/intro/loca.png
+    - assets/images/intro/storage.png
+    - assets/images/intro/intro_text.png
+    - assets/images/intro/phoneicon.png
+
+    - assets/images/back.png
+    - assets/images/check_off.png
+    - assets/images/check_on.png
+    - assets/images/check_on_black.png
+    - assets/images/group_2.png
+    - assets/images/group_5.png
+    - assets/images/group_18.png
+    - assets/images/group_19.png
+    - assets/images/group.png
+    - assets/images/payment_success.png
+    - assets/images/completedcoupon.png
+    - assets/images/expiredcoupon.png
+    - assets/images/pointexpired.png
+    - assets/images/replyinqury.png
+    - assets/images/reserok.png
+    - assets/images/resercancel.png
+    - assets/images/reserrefund.png
+    - assets/images/close.png
+    - assets/images/gps_location.png
+
+    - assets/images/emailmark.png
+    - assets/images/expoint.png
+    - assets/images/googlemark.png
+    - assets/images/kakaomark.png
+    - assets/images/kakao_yellow_icon.png
+    - assets/images/applemark.png
+
+  fonts:
+    - family: SpoqaBold
+      fonts:
+        - asset: fonts/Spoqa_Han_Sans_Bold.ttf
+    - family: Spoqa
+      fonts:
+        - asset: fonts/Spoqa_Han_Sans_Regular.ttf
+    - family: Jalnan
+      fonts:
+        - asset: fonts/Jalnan.ttf

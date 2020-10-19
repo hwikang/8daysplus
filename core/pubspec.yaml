@@ -1,0 +1,33 @@
+name: core
+description: Common shared code
+version: 0.0.1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  mobile:
+    path: ../mobile
+
+  # GraphQL client
+  graphql: ^3.0.0
+
+
+  # Useful for Reactive Programming
+  rxdart: ^0.24.1
+
+  # Useful internationalization
+  intl: ^0.15.2
+
+  # bloc: ^0.14.4
+  sentry: ^3.0.1
+  logger: ^0.9.1
+
+  shared_preferences: ^0.5.3+4
+  device_info: ^0.4.1+4
+
+dev_dependencies:
+  effective_dart: ^1.2.4
